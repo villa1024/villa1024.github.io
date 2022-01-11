@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section class="home" id="home">
+        <div class="titles">
+            <div class="titles-wrap">
+                <h1 class="animate__animated animate__backInLeft">Soy <span>Joaquín Villalón</span></h1>
+                <h2><span class="txt-rotate"></span></h2>
+                <div class="getintouch mt-5">
+                    <div>
+                        <a href="./archivos/Joaquin_Villalon_CV.pdf"
+                            class="btn btn-warning text-white animate__animated animate__backInLeft" download>
+                            Descargar CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="sec-title">
+                        <h2 class="text-color-main">Trabajos</h2>
+                        <button class="btn" onclick="myFunction('trabajos')">
+                            <i class="fas fa-arrow-down text-warning" id="trabajos-down"></i>
+                            <i class="fas fa-arrow-up text-warning" id="trabajos-up" style="display: none;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="trabajos"">
+                <div class=" row animate__animated animate__backInLeft">
+                <div class="accordion" id="accordionExample">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuatro">
+                                AppLimentos
+                            </button>
+                        </h2>
+                        <div id="collapseCuatro" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Aplicación personal, la cual es capaz de consultar una base de datos para obtener
+                                distintos alimentos junto a sus kilocalorías, para que el usuario pueda seleccionar los
+                                alimentos que ha consumido durante el día. Estos registros
+                                son guardados para así poder consultarlos más adelante.
+                                <br>
+                                <div class="mt-2">
+                                    <a href="https://github.com/villa1024/applimentos-backend" target="_blank">Repositorio backend</a>
+                                </div>
+                                <br>
+                                <div class="mt-2">
+                                    <a href="https://github.com/villa1024/applimentos-frontend" target="_blank">Repositorio frontend</a>
+                                </div>
+                                <div class="alert alert-warning mt-2 text-center" role="alert">
+                                    MongoDB - Express.js - React - Node.js - Bootstrap
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Invernadero inteligente
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Un proyecto universitario el cual consiste en aprender a utilizar la placa Arduino
+                                UNO. Se desarrolla un Invernadero Inteligente, el cual cuenta con un sensor para la
+                                cantidad de luz en el ambiente (LDR) y un sensor de humedad de suelo, además de un
+                                sistema
+                                de
+                                regadío y un sistema de iluminación. Estos datos se reciben en el software para así
+                                encender automáticamente tanto el regadío como la iluminación según sea necesario. Todas
+                                las estadísticas pueden verse desde una página web.
+                                <div class="alert alert-warning mt-2 text-center" role="alert">
+                                    Arduino UNO - Sensor de humedad y LDR - MySQL - React
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOcho" aria-expanded="true" aria-controls="collapseOcho">
+                                Juego Ahorcado
+                            </button>
+                        </h2>
+                        <div id="collapseOcho" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Clásico juego para un jugador que consiste en adivinar la palabra letra por letra con un
+                                límite de errores.
+                                <br>
+                                <a href="https://github.com/villa1024/juego-ahorcado-Cplusplus"
+                                    target="_blank">Repositorio</a>
+                                <div class="alert alert-warning mt-2 text-center" role="alert">
+                                    C++
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSiete" aria-expanded="true" aria-controls="collapseSiete">
+                                Juego Tic Tac Toe
+                            </button>
+                        </h2>
+                        <div id="collapseSiete" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Clásico juego para 2 jugadores.
+                                <br>
+                                <a href="https://github.com/villa1024/juego-TicTacToe-Cplusplus"
+                                    target="_blank">Repositorio</a>
+                                <div class="alert alert-warning mt-2 text-center" role="alert">
+                                    C++
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Motel Los Troncos
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Proyecto universitario el cual consiste en buscar un empresa real para desarrollar
+                                un
+                                software y resolver una problemática. Se desarrolla un software capaz de gestionar
+                                todo el inventario de la empresa, monitorear en tiempo real todas las habitaciones
+                                disponibles, ingresar un cliente a su habitación junto a los insumos que este
+                                compre.
+                                <br>
+                                <a href="https://github.com/villa1024/motel_los_troncos" target="_blank">Repositorio</a>
+                                <div class="alert alert-warning mt-2 text-center" role="alert">
+                                    PostgreSQL - Express.js - React - Node.js - Sequelize - Bootstrap
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeis" aria-expanded="false" aria-controls="collapseSeis">
+                                Plantilla Auth React
+                            </button>
+                        </h2>
+                        <div id="collapseSeis" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Plantilla en Ract que cuenta con autenticación de usuario ya implementada, para poder
+                                utilizarla en futuros proyectos y ahorrarnos algo de tiempo. La autenticación es sobre
+                                firebase, pudiendo crear nuevos usuario o ingresar a la aplicación tanto con email y
+                                contraseña o mediante una cuenta de Google.
+                                <br>
+                                <a href="https://github.com/villa1024/react-auth-plantilla"
+                                    target="_blank">Repositorio</a>
+                                <div class="alert alert-warning mt-2 text-center" role="alert">
+                                    Firebase - React - Redux
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco">
+                                Presupuesto App
+                            </button>
+                        </h2>
+                        <div id="collapseCinco" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Aplicación personal, en la cual se puede llevar un control de los gastos. Se pueden
+                                crear nuevos métodos de pago que tengamos, ya sea efectivo, algún tipo de tarjeta, y así
+                                ingresar respectivamente los gastos que hacemos con cada una.
+                                <br>
+                                <a href="https://github.com/villa1024/react-presupuesto-app"
+                                    target="_blank">Repositorio</a>
+                                <div class="alert alert-warning mt-2 text-center" role="alert">
+                                    Firebase - Firestore - React - Redux
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                SCChile App
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Proyecto universitario el cual consiste en buscar una empresa real para desarrollar
+                                un software y resolver una problemática. Se desarrolla un software capaz de ingresar
+                                nuevos vecinos a la aplicación, facilitandoles un botón de pánico dentro de la
+                                aplicación, para que en caso de robo o urgencia, el vecino pueda presionarlo
+                                rápidamente enviando toda su información de ubicación y esta pueda ser vista desde
+                                un cuenta de algún guardia para acudir lo
+                                antes posible a la situación. Además cuenta con una app móvil con un módulo de
+                                "Escolta", el cual
+                                consiste en que el vecino ingresará a la aplicación para solicitar un vehículo
+                                escolta, enviando su ubicación actual y así un guardia pueda ir y acompañarlo hasta
+                                su casa.
+                                <br>
+                                <a href="https://github.com/villa1024/tics2" target="_blank">Repositorio</a>
+                                <div class="alert alert-warning mt-2 text-center" role="alert">
+                                    PostgreSQL - Express.js - React - Node - React Native - Bootstrap
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Fin seccion TRABAJOS -->
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="sec-title">
+                        <h2 class="text-color-main">Conocimientos</h2>
+                        <button class="btn" onclick="myFunction2('conocimientos')">
+                            <i class="fas fa-arrow-down text-warning" id="trabajos-down2"></i>
+                            <i class="fas fa-arrow-up text-warning" id="trabajos-up2" style="display: none;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="conocimientos">
+                <div class="row animate__animated animate__backInLeft">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>JavaScript</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>React</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>Node</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4 class="">Python</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>PHP</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>PostgreSQL</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>MySQL</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>MongoDB</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>Git</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>HTML</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>C++</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>React native</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>Bootstrap</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="service-box">
+                            <div class="icontitle">
+                                <div class="title">
+                                    <h4>Arduino</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin seccion CONOCIMIENTOS -->
+
+    </section>
+
+    <footer>
+        <div class="alert alert-warning text-center" role="alert">
+            <p>Contacto: joaquin.villalon@mail.udp.cl</p>
+            <a href="https://github.com/villa1024">Github</a>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
