@@ -1,6 +1,6 @@
 (function ($) {
     var typed = new Typed('span.txt-rotate', {
-        strings: ["Estudiante de Ingeniería Civil en Informática y Telecomunicaciones"],
+        strings: ["Egresado de Ingeniería Civil en Informática y Telecomunicaciones"],
         typeSpeed: 35,
         backSpeed: 50,
         fadeOut: false,
